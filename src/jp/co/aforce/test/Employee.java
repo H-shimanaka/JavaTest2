@@ -8,22 +8,12 @@ public class Employee {
 	private String gender;
 	private int age;
 
-	void setNumber(int number) {
+	void setDate(int number,String name,String gender,int age) {
 		this.number = number;
-	}
-
-	void setName(String name) {
 		this.name = name;
-	}
-
-	void setGender(String gender) {
 		this.gender = gender;
-	}
-
-	void setAge(int age) {
 		this.age = age;
 	}
-
 
 	int getNumber() {
 		return this.number;

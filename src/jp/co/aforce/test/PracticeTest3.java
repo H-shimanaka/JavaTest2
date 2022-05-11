@@ -21,20 +21,9 @@ public class PracticeTest3 {
 		Employee SatoData = new Employee();
 		Employee SuzukiData = new Employee();
 
-		TanakaData.setNumber(1);
-		TanakaData.setName("田中太郎");
-		TanakaData.setGender("男性");
-		TanakaData.setAge(27);
-
-		SatoData.setNumber(2);
-		SatoData.setName("佐藤花子");
-		SatoData.setGender("女性");
-		SatoData.setAge(22);
-
-		SuzukiData.setNumber(3);
-		SuzukiData.setName("鈴木次郎");
-		SuzukiData.setGender("男性");
-		SuzukiData.setAge(31);
+		TanakaData.setDate(1, "田中太郎", "男性", 27);
+		SatoData.setDate(2, "佐藤花子", "女性", 22);
+		SuzukiData.setDate(3, "鈴木次郎", "男性", 31);
 
 		ArrayList<Employee> Employees = new ArrayList<>();
 		Employees.add(TanakaData);

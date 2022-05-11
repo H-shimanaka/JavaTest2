@@ -6,7 +6,7 @@ public class PracticeTest6 {
 
 		//練習問題１
 		MinMax minMax = new MinMax();
-		int a = 4,b = 2,c = 10;
+		int a = 2,b = 10,c = 10;
 		System.out.println(a + "と" + b + "と" + c + "のうち、最大のものは" + minMax.getMaxValue(a,b,c));
 		System.out.println(a + "と" + b + "と" + c + "のうち、最小のものは" + minMax.getMinValue(a,b,c));
 
